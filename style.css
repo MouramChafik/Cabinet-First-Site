@@ -1,0 +1,229 @@
+/* Style de base pour le site web */
+
+body {
+  background-image: url("dist/back.jpeg");
+  background-repeat: cover;
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+}
+
+/*h1 {
+  text-align: center;
+	background-color: #336699;
+	color: #09a137;
+	padding: 10px;
+}*/
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 72px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  background-image: url("dist/titre2.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  background-image: url("dist/titre3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #336699;
+  padding: 20px;
+}
+
+header {
+  background-color: #0f60b000;
+  color: rgba(0, 0, 2, 0);
+  padding: 10px;
+}
+/* style menu */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: Arial, sans-serif;
+}
+
+nav ul li a {
+  color: #336699;
+  text-decoration: darkblue;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+}
+
+nav ul li a:hover {
+  color: #09a137;
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+}
+/*style diaporama*/
+
+.slider {
+  margin: 0 auto; /* set left and right margin to auto */
+  max-width: 1000px; /* set a maximum width for the slideshow */
+}
+
+/* style menu */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* Style pour la section "Nos services" */
+
+#services ul p li {
+  color: black;
+  column-count: 2;
+}
+
+/* Style pour la section "Notre équipe" */
+
+#equipe ul {
+  column-count: 3;
+}
+#equipe {
+  background-color: rgba(1, 1, 8, 0);
+  padding: 50px;
+}
+
+#equipe h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#equipe p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#equipe ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#equipe li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+#equipe li:before {
+  content: "\2022";
+  font-size: 1.2em;
+  position: unset;
+  left: 0;
+  top: 2px;
+}
+#equipe li {
+  display: -webkit-inline-flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#equipe img {
+  max-width: 350px;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+
+#equipe h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#equipe p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Style pour la section "Contact" */
+
+#contact ul {
+  margin-left: 40px;
+}
+#contact p {
+  color: rgb(0, 0, 0);
+}
+#contact ul li {
+  margin-bottom: 10px;
+}
+
+/* Style pour le pied de page 
+
+footer {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 10px
+	*/
+
+/* style footer */
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #666;
+}
+
+/*style social media*/
+
+.social-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #4267b2;
+}
+
+.social-icons .fa-facebook-f {
+  font-size: 20px;
+}
+
+.social-icons .fa-twitter {
+  font-size: 20px;
+}
+
+.social-icons .fa-instagram {
+  font-size: 20px;
+}
